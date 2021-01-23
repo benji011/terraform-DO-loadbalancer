@@ -1,5 +1,5 @@
 resource "digitalocean_domain" "default" {
-  name = "my_domain"
+  name = "lb-benjaminlo.io"
   ip_address = digitalocean_loadbalancer.www-lb.ip
 }
 
